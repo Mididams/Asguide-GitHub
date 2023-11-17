@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/syles-gen.css">
+    <script src="scripts/changer-police.js" async></script>
+
+    <title>ASguIDE</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+</head>
+
+<body>
+
+<!--Bouton changer écriture-->
+    <select id="choixPolice">
+        <option value='Delius Swash Caps'>Changer la Police: 1</option>
+        <option value='Roboto'>changer la police: 2</option>
+    </select>
+
+<!--Titre-->
+    <h1 class="titre-pr">Bienvenue dans l' Asguide</h1>
+        <p>Asguide est destiné aux AS et IDE des urgences de l'URM. <br>
+            Ce guide a pour but de regrouper les protocoles, procédures, annuaires, travaux des GT et
+            autres éléments utiles au quotidien.<br>
+            Tout ce qui est en vert est un lien cliquable. <br>
+            Pour faire une recherche, même dans un doc pdf: ctrl + F. <br>
+            Pour modifier la taille du texte, des images, des pdf si besoin: Ctrl + molette souris. <br>
+            Ce site n'est pas la version officielle;
+            seule la version informatique officielle du CHU fait foi <br>
+        </p>
+
+    <!--   <form>
+            <input type="text" placeholder="Rechercher...">
+            <button type="submit">Rechercher sur Asguide</button>
+        </form>
+ -->
+    <hr class="hr">
+
+    <!--Annuaires-->
+    <h2>Les annuaires (Tel iDE et UF Services):</h2>
+    <div class="alignepara">
+        <p><a href="html/annuaire-urg.html" target="_blank">Urgences</a></p>
+        <p><a href="html/annuaire-IOA.html" target="_blank">Numéros utiles IOA</a></p>
+        <p><a href="html/ann-labo-rx-st.html" target="_blank">Labo, Rx, Serv techniques</a></p>
+        <p><a href="html/services-et-uf.html" target="_blank">Services et UF</a></p>
+        <p><a href="html/taxis.html" target="_blank">Taxis</a></p>
+        <p><a href="fichiers/memento-PMU/Mémento_PMU.pdf" target="_blank">Mémento PMU</a></p>
+    </div>
+    <hr class="hr">
+
+    <!--Les liens utiles-->
+    <h2>Les liens utiles:</h2>
+    <div class="alignepara">
+        <p><a href="https://chu-toulouse.manuelprelevement.fr/" target="_blank">Biologie</a></p>
+        <p><a href="https://www.planning-medical.com/p.php?s=URG31P_w9KehbipBjddNhQrCJbEyCvpcuzmr8h"
+                target="_blank">Planning medecins</a></p>
+    </div>
+    <hr class="hr">
+
+    <!--Principaux protocoles-->
+    <h1>Les médicaments</h1>
+
+    <!--Ampoulier-->
+    <div class="divseringue">
+        <h2>La référence: l'ampoulier</h2>
+        <h4>Comment se prépare ce médicament déjà? :
+            <a href="fichiers/docs-chu/Médicaments/Ampoulier.pdf" target="_blank"
+                title="Clique ici pour l'ampoulier!">Ampoulier</a>
+        </h4>
+
+        <p>Y'a pas ce que tu cherches au dessus? :
+            <button class="button" type="button"><a href="https://hoptimal.vidal.fr/" target="_blank">Vidal</a></button>
+            sinon
+            <button class="button" type="button"><a href="https://www.google.fr/" rel="noopener"
+                    target="_blank">Google!</a></button>
+        </p>
+        <img src="images/seringue.png" alt="dessin d'une seringue" width="90" class="seringue">
+    </div>
+    <hr>
+
+    <!--Les protocoles médicaments-->
+    <h2>Les principaux protocoles médicaments:</h2>
+    <ul class="colonne4">
+        <li><a href="fichiers/docs-chu/Médicaments/Actilyse.pdf" target="_blank">Actilyse</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Anexate.pdf" target="_blank">Anexate (Flumazénil)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Calciparine.pdf" target="_blank">Calciparine (Héparine Calcique)</a>
+        </li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Eupanthol.pdf" target="_blank">Eupanthol (Pantoprazole)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Eupressyl.pdf" target="_blank">Eupressyl (Urapidil)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Furo 250.pdf" target="_blank">Furosémide 250mg</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Glypressine.pdf" target="_blank">Glypressine (Terlipressine)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Héparine.pdf" target="_blank">Héparine</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Hidonac.pdf" target="_blank">Hidonac</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/insuline IVSE.pdf" target="_blank">insuline IVSE</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/insuline sous cut.pdf" target="_blank">insuline Sous Cut</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Isuprel.pdf" target="_blank">isuprel (Isoprénaline)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Kétamine.pdf" target="_blank">Kétamine</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Loxen_IVSE.pdf" target="_blank">Loxen IVSE (Nicardipine)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Méopa.pdf" target="_blank">Méopa</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Midazolam-(Hypnovel)-1-mg.pdf" target="_blank">Midazolam</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Morphine.pdf" target="_blank">Morphine</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Narcan.pdf" target="_blank">Narcan (Naloxone)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Octaplex.pdf" target="_blank">Octaplex</a></li>
+
+        <li><a href="html/penthrox.html" target="_blank">Penthrox</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Prodilantin.pdf" target="_blank">Prodilantin</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Risordan.pdf" target="_blank">Risordan (isosorbide)</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Somatostatine.pdf" target="_blank">Somatostatine</a></li>
+    </ul>
+    <hr>
+
+    <!--Les Fiches liées aux médicaments-->
+    <h2>Les fiches liées aux médicaments:</h2>
+    <ul class="colonne3">
+        <li><a href="fichiers/docs-chu/Médicaments/demi-vie.pdf" target="_blank">Demi-vie des médicaments</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Stocks déportés.pdf" target="_blank">Stocks déportés</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Conservation après ouverture des topiques.pdf"
+                target="_blank">Conservation après ouverture des topiques</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Conservation apres ouvertures formes liquides.pdf"
+                target="_blank">Conservation après ouverture solutions buvables</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Conservation médicaments apres ouverture.pdf"
+                target="_blank">Conservation insulines et medocs psy</a></li>
+
+        <li><a href="fichiers/docs-chu/Médicaments/Equivalence volume gouttes.pdf" target="_blank">Equivalence
+                Volume/goutttes sol buvables</a></li>
+    </ul>
+    <hr>
+
+    <!--Les Fiches médicaments-->
+    <h2>Les mémos médicaments d'urgences:</h2>
+    <p class="list"><a href="html/memo-medicaments-urgences.html" target="_blank">Fiches mémos médicaments
+            d'urgences</a><br>
+        (Adrénaline, Atropine, Célocurine, Ephédrine, Etomidate, isuprel, Kétamine, Midazolam, Noradrénaline,
+        Sufentanil)
+    </p>
+    <h2>Les mémos Antibiotiques:</h2>
+    <p class="list"><a href="html/memo-antibiotiques.html" target="_blank">Fiches mémos antibiotiques</a><br>
+        (Amikacine , Azactam , Bactrim , Cefotaxime ,Clindamycine, Cloxacilline , Erythrocine , Gentamycine , Rovamycine
+        , Vancomycine.)
+    </p>
+    <h2>Les mémos Médicaments:</h2>
+    <p class="list"><a href="html/memo-medicaments.html" target="_blank">Fiches mémos médicaments</a><br>
+        (Phocytan)
+    </p>
+    <hr class="hr">
+
+    <!--Protocoles par services-->
+    <h1>Les protocoles et procédures</h1>
+    <h2>Par services et catégories</h2>
+    <h3>Par services:</h3>
+    <ul class="colonne3">
+        <li><a href="html/IOA.html" target="_blank">IOA</a></li>
+        <li><a href="html/sauv.html" target="_blank">SAUV</a></li>
+        <li><a href="html/AMT.html" target="_blank">AMT</a></li>
+        <li><a href="html/UA.html" target="_blank">UA</a></li>
+        <li><a href="html/UHCD.html" target="_blank">UHCD</a></li>
+        <li><a href="html/psychiatrie.html" target="_blank">Psychiatrie</a></li>
+    </ul>
+    <hr>
+
+    <!--Protocoles par catégories-->
+    <h3>Par catégories:</h3>
+    <ul class="colonne4">
+        <li><a href="html/administratif.html" target="_blank">Administratif</a></li>
+        <li><a href="html/AES.html" target="_blank">AES</a></li>
+        <li><a href="html/agression.html" target="_blank">Agressions-violences</a></li>
+        <li><a href="html/AMT.html" target="_blank">AMT</a></li>
+        <li><a href="html/analgesie.html" target="_blank">Analgésie</a></li>
+        <li><a href="html/biologie.html" target="_blank">Biologie</a></li>
+        <li><a href="html/cardiologie.html" target="_blank">Cardiologie</a></li>
+        <li><a href="html/gastro.html" target="_blank">Gastro</a></li>
+        <li><a href="html/geriatrie.html" target="_blank">Gériatrie</a></li>
+        <li><a href="html/hematologie.html" target="_blank">Hématologie</a></li>
+        <li><a href="html/hemovigilance.html" target="_blank">Hémovigilance</a></li>
+        <li><a href="html/hygiene.html" target="_blank">Hygiène</a></li>
+        <li><a href="html/infectieux.html" target="_blank">Infectieux</a></li>
+        <li><a href="html/isolements.html" target="_blank">Isolements</a></li>
+        <li><a href="html/informatique.html" target="_blank">Informatique</a></li>
+        <li><a href="html/inventaires.html" target="_blank">Inventaires</a></li>
+        <li><a href="html/IOA.html" target="_blank">IOA</a></li>
+        <li><a href="html/metabolique.html" target="_blank">Métabolique</a></li>
+        <li><a href="html/neurologie.html" target="_blank">Neurologie</a></li>
+        <li><a href="html/process.html" target="_blank">Process</a></li>
+        <li><a href="html/processus-obstructifs.html" target="_blank">Processus obstructifs</a></li>
+        <li><a href="html/protocoles-anticipés-ide.html" target="_blank">Protocoles anticipés IDE</a></li>
+        <li><a href="html/respi.html" target="_blank">Respi/Pneumo</a></li>
+        <li><a href="html/sauv.html" target="_blank">SAUV</a></li>
+        <li><a href="fichiers/docs-chu/Scope-QT-et-GCS/QT-et-GSC.pdf" target="_blank">Scope QT et Glasgow</a></li>
+        <li><a href="html/social.html" target="_blank">Social</a></li>
+        <li><a href="html/toxicologie.html" target="_blank">Toxicologie</a></li>
+        <li><a href="html/tracabilite.html" target="_blank">Traçabilité (stup / MDS)</a></li>
+        <li><a href="html/traumatologie.html" target="_blank">Traumato</a></li>
+        <li><a href="html/UA.html" target="_blank">UA</a></li>
+        <li><a href="html/UHCD.html" target="_blank">UHCD</a></li>
+        <li><a href="html/uro-nephro.html" target="_blank">Uro-néphro</a></li>
+    </ul>
+    <hr>
+
+    <h1>Divers</h1>
+
+<!--Les scores-->
+    <h2>Les scores utiles en medecine d'urgences:</h2>
+    <ul>
+        <li><a href="html/scores.html" target="_blank">Les scores</a></li>
+    </ul>
+    <hr class="hr">
+   
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/syles-gen.css">
+    <script src="../scripts/changer-police.js" async></script>
+
+    <title>Mémos médocs d'urgences</title>
+
+</head>
+
+<body>
+
+<!--Bouton changer écriture-->
+    <select id="choixPolice">
+        <option value='Delius Swash Caps'>Changer la Police: 1</option>
+        <option value='Roboto'>changer la police: 2</option>
+    </select>
+<!--------------------------->
+
+        <h1 class="titre-pr" id="hdp">Fiches mémos médicaments d'urgences</h1>
+        <h2 class="h2cent">
+            <span><a href="#Adré">Adrénaline, </a></span>
+            <span><a href="#Atropine">Atropine, </a></span>
+            <span><a href="#Célocurine">Célocurine, </a></span>
+            <span><a href="#Ephédrine">Ephédrine, </a></span>
+            <span><a href="#Etomidate">Etomidate, </a></span>
+            <span><a href="#isuprel">isuprel, </a></span>
+            <span><a href="#Kétamine">Kétamine, </a></span>
+            <span><a href="#Midazolam">Midazolam, </a></span>
+            <span><a href="#Noradrénaline">Noradrénaline, </a></span>
+            <span><a href="#Sufentanil">Sufentanil, </a></span>
+            <span><a href="#Calcul">Calcul.</a></span>
+        </h2>
+
+<!--Médicaments-->
+        <h2 class="titreFMU">Médicaments</h2>
+            <div class="conteneurFMU">
+                Conditionnement <br>
+                <span class="bleu">Matériel</span> <br>
+                <span class="marron">Pur ou dilué, quantité</span><br>
+                <span class="rouge">Dilution finale</span><br>
+                <span class="vert">Dose à injecter / d'entretien</span>
+            </div><hr>
+
+<!--Adrénaline-->
+        <h2 class="titreFMU" id="Adré">Adrénaline</h2>
+        <h3 class="titreFMU">ACR</h3>
+            <div class="conteneurFMU">
+                Ampoule: 5mg/5ml <br>
+                <span class="bleu">1 seringue de 10ml </span> <br>
+                <span class="marron">Pur, 2 amp</span> <br>
+                = 10mg/10ml <br>
+                soit  <span class="rouge">1mg/ml</span><br>
+                iVD <br>
+                <span class="vert">ACR: 1mg / 3 à 5 min</span>
+            </div>
+
+            <h3 class="titreFMU">Anaphylaxie</h3>
+            <div class="conteneurFMU">
+                Ampoule: 1mg/1ml <br>
+                <span class="bleu">1 seringue de 1ml + 1 aiguille iM</span> <br>
+                <span class="marron">Pur, 1 amp</span> <br>
+                <span class="rouge">1mg/ml</span><br>
+                iM <br>
+                <span class="vert">0.5mg (0.5ml) à renouveller 1 fois SB</span><br><br>
+                Si inefficace: <br>
+                <span class="bleu">1 seringue de 20ml + PSE</span> <br>
+                <span class="marron">2 amp = 2ml (2mg) + 18ml G5%</span><br>
+                = 2mg / 20ml <br>
+                <span class="rouge"><span class="gras">100μg/ml</span> (= 0.1mg/ml )</span><br>
+                iVSE <br>
+                <span class="vert">0.05 à 0.1 μg/kg/min</span><br>
+                Calcul pour ml/h à injecter: <br>
+                Poids x <span class="vert">dose d'entretien en μg</span> / <span class="rouge">dilution en μg</span>  x 60 ! <br>
+                Attention minutes! <br><br>
+                [ Ex 70kg à 0.1μg/kg/min: <br>
+                70 x <span class="vert">0.1 </span> / <span class="rouge">100</span> x 60 <br>
+                0.07ml/ min (donc x 60)<br>
+                4.2 ml/h ]
+            </div><hr>
+
+<!--Atropine-->
+        <h2 class="titreFMU" id="Atropine">Atropine</h2>
+            <div class="conteneurFMU">
+                Ampoule: 0.5mg/1ml <br>
+                <span class="bleu">1 seringue de 5ml </span> <br>
+                <span class="marron">Pur, 2 amp</span> <br>
+                = 1mg / 2ml <br>
+                <span class="rouge">0.5mg/ml</span><br>
+                iVD <br>
+                <span class="vert">0.5mg (1ml) à 1mg (2ml)</span>
+            </div>
+
+<p class="paralienhdp"><a href="#hdp">Retourner en haut (j'ai la flemme de scroller)</a></p>
+<hr>
+
+<!--Célocurine-->
+        <h2 class="titreFMU" id="Célocurine">Célocurine (frigo)</h2>
+            <div class="conteneurFMU">
+                Ampoule: 100mg/2ml <br>
+                <span class="bleu">1 seringue de 10ml </span> <br>
+                <span class="marron">Diluer 1 amp (2ml) + 8ml Nacl</span> <br>
+                = 100mg / 10ml <br>
+                soit <span class="rouge">10mg/ml</span><br>
+                iVD <br>
+                <span class="vert">1mg/kg (soit 1ml/10kg)</span> <br>
+                [ Ex: 70kg = 70 mg = 7ml <br>
+                100kg = 100 mg = 10ml ]
+            </div><hr>
+
+<!--Ephédrine-->
+        <h2 class="titreFMU" id="Ephédrine">Ephédrine</h2>
+            <div class="conteneurFMU">
+                Ampoule: 30mg/10ml <br>
+                <span class="bleu">1 seringue de 10ml </span> <br>
+                <span class="marron">Pur, 1 amp</span> <br>
+                = 30ml / 10ml <br>
+                <span class="rouge">3mg/ml</span><br>
+                iVD <br>
+                <span class="vert">9mg / 3min (soit 3ml / 3min)</span><br>
+            </div><hr>
+
+<!--Etomidate-->
+        <h2 class="titreFMU" id="Etomidate">Etomidate</h2>
+            <div class="conteneurFMU">
+                Ampoule: 20mg/10ml <br>
+                <span class="bleu">1 seringue de 20ml </span> <br>
+                <span class="marron">Pur, 2 amp</span> <br>
+                = 40mg / 20ml <br>
+                <span class="rouge">2mg/ml</span><br>
+                iVD <br>
+                <span class="vert">0.3 à 0.5 mg/kg</span><br><br>
+                Calcul pour ml à injecter: Poids x <span class="vert">dose</span> / <span class="rouge">dilution</span><br><br>
+                [ Ex 70kg à 0.3mg/kg: <br> 
+                70 x <span class="vert">0.3 </span>/ <span class="rouge">2 </span> <br>
+                = 21mg / 2<br>
+                = 10.5 ml à injecter ]
+            </div><hr>
+
+<!--Isuprel-->
+        <h2 class="titreFMU" id="isuprel">isuprel (n'est plus au frigo)</h2>
+            <div class="conteneurFMU">
+                Ampoule: 0.2mg/1ml <br>
+                <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                <span class="marron">Diluer 5 amp (5ml) + 45ml de G5%</span> <br>
+                <span class="marron">(ou 3 amp (3ml) + 27ml de G5%)</span> <br>
+                1mg / 50 ml (ou 0.6mg/30ml) <br>
+                <span class="rouge">0.02mg/ml = 20μg/ml = 20gamma/ml</span><br>
+                iVSE; cf <a class="lienFMU" href="../fichiers/docs-chu/Médicaments/Isuprel.pdf" target="_blank">protocole-isuprel</a><br>
+                <span class="vert">de 0.05 à 0.2 μg/kg/min</span><br>
+                Calcul pour ml/h à injecter: <br>
+                Poids x <span class="vert">dose d'entretien</span> / <span class="rouge">dilution</span>  x 60 ! <br>
+                Attention minutes! 
+            </div>
+
+<p class="paralienhdp"><a href="#hdp">Retourner en haut (j'ai la flemme de scroller)</a></p>
+<hr>
+
+<!--Kétamine-->
+        <h2 class="titreFMU" id="Kétamine">Kétamine</h2>
+        <h3 class="titreFMU">Analgésie / sédation vigile</h3>
+            <div class="conteneurFMU">
+                Ampoule: 50mg/5ml <br>
+                <span class="bleu">1 seringue de 10ml </span> <br>
+                <span class="marron">Pur, 1 amp, prévoir une 2ème sans la casser</span> <br>
+                <span class="rouge">10mg/ml</span><br>
+                iVD lent <br>
+                <span class="vert">0.1 à 0.5mg/kg</span><br>
+                + bolus de 10mg (1ml) jusque necessaire <br>
+                Calcul pour ml à injecter: <br> 
+                Poids x <span class="vert">dose</span> / <span class="rouge">dilution</span><br>
+            </div>
+
+        <h3 class="titreFMU">iSR, dilution recommandée Urgences:</h3>
+            <div class="conteneurFMU">
+                Ampoule: 250mg/5ml (50mg/ml) <br>
+                <span class="bleu">2 seringues de 20ml</span> <br>
+                <span class="marron">Diluée, 1 amp par seringue</span> <br>
+                <span class="marron">4ml (200mg) + 16ml NAcl</span> <br>
+                = 200mg / 20ml <br>
+                <span class="rouge">10mg/ml</span><br>
+                iVD lent <br>
+                <span class="vert">2 à 4mg/kg</span><br>
+                Calcul pour ml à injecter: <br> 
+                Poids x <span class="vert">dose</span> / <span class="rouge">dilution</span><br><br>
+                [ Ex 70kg à 3mg/kg: <br>
+                70 x <span class="vert">3 </span>/ <span class="rouge">10</span><br>
+                = 210 mg / 10 <br>
+                = 21 ml ]
+            </div><hr>
+
+<!--Midazolam-->
+        <h2 class="titreFMU" id="Midazolam">Midazolam</h2>
+        <h3 class="titreFMU">Dilution recommandée Urgences:</h3>
+            <div class="conteneurFMU">
+                Ampoule: 50mg/10ml <br>
+                <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                <span class="marron">Diluer 10ml (50mg) + 40ml Nacl</span> <br>
+                = 50mg / 50ml <br>
+                <span class="rouge">1mg/ml</span><br>
+                iVSE <br>
+                <span class="vert">Entretien sédation: 0.1 à 0.15mg/kg/h</span><br>
+                Calcul pour ml à injecter: <br> 
+                Poids x <span class="vert">dose d'entretien</span> / <span class="rouge">dilution</span><br><br>
+                [ Ex 70kg à 0.1mg/kg/h: <br>
+                70 x <span class="vert">0.1 </span>/ <span class="rouge">1</span><br>
+                = 7 mg / 1 <br>
+                = 7 ml/h ]
+            </div>
+
+        <h3 class="titreFMU">Autre dilution possible:</h3>
+            <div class="conteneurFMU">
+                Ampoule: 50mg/10ml <br>
+                <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                <span class="marron">Pur, 5 amp soit 50ml (250mg)</span> <br>
+                = 250mg / 50ml <br>
+                <span class="rouge">5mg/ml</span><br>
+                iVSE <br>
+                <span class="vert">Entretien sédation: 0.1 à 0.15mg/kg/h</span><br>
+                Calcul pour ml à injecter: <br> 
+                Poids x <span class="vert">dose d'entretien</span> / <span class="rouge">dilution</span><br><br>
+                [ Ex 70kg à 0.1mg/kg/h: <br>
+                70 x <span class="vert">0.1 </span>/ <span class="rouge">5</span><br>
+                = 7 mg / 5 <br>
+                = 1.4 ml/h ]
+            </div>
+
+<p class="paralienhdp"><a href="#hdp">Retourner en haut (j'ai la flemme de scroller)</a></p>
+<hr>
+
+<!--Noradrénaline-->
+            <h2 class="titreFMU" id="Noradrénaline">Noradrénaline</h2>
+            <h3 class="titreFMU">Dilution recommandée Urgences:</h3>
+                <div class="conteneurFMU">
+                    Ampoule: 8mg/4ml <br>
+                    <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                    <span class="marron">Diluer  1 amp = 4ml (8mg) + 36ml G5%</span> <br>
+                    = 8mg / 40ml <br>
+                    <span class="rouge">0.2mg/ml</span><br>
+                    iVSE <br>
+                    <span class="vert">Entretien: 0.2 mg/h soit 1ml/h</span><br>
+                    Augmenter si besoin <br><br>
+                    Produit en croix pour ml/h: <br>
+                    <span class="vert">dose entretien désirée </span> x 1 /  <span class="rouge">0.2mg</span><br>
+                    [ Ex: pour 0.5mg/h: <br>
+                    0.5 x 1 / 0.2 <br>
+                    = 2.5 ml/h ]
+                </div>
+
+            <h3 class="titreFMU">Autres dilutions possibles:</h3>
+                <div class="conteneurFMU">
+                    Ampoule: 8mg/4ml <br>
+                    <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                    <span class="marron">Diluer  1 amp = 4ml (8mg) + 12 ml G5%</span> <br>
+                    = 8mg/16ml = <span class="rouge">0.5mg/ml</span><br><br>
+                    <span class="marron">Diluer  2 amp = 8ml (16mg) + 24 ml G5%</span> <br>
+                    = 16mg/32ml = <span class="rouge">0.5mg/ml</span><br><br>
+                    <span class="marron">Diluer  3 amp = 12ml (24mg) + 36 ml G5%</span> <br>
+                    = 24mg/48ml = <span class="rouge">0.5mg/ml</span><br>
+                    <span class="vert">Pour un entretien à partir de 0.5 mg/h soit 1ml/h</span><br>
+                </div><hr>
+
+<!--Sufentanil-->
+            <h2 class="titreFMU" id="Sufentanil">Sufentanil</h2>
+            <h3 class="titreFMU">Ampoules 50μg/10ml:</h3>
+                <div class="conteneurFMU">
+                    Ampoule: 50μg/10ml <br>
+                    <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                    <span class="marron">Diluer  1 amp = 10ml (50μg) + 40ml Nacl</span> <br>
+                    = 50μg / 50ml <br>
+                    <span class="rouge">1μg/ml</span><br>
+                    iVSE <br>
+                    <span class="vert">Entretien: 0.2 à 0.5 μg/kg/min </span><br>
+                    Calcul pour ml à injecter: <br> 
+                    Poids x <span class="vert">dose d'entretien</span> / <span class="rouge">dilution</span><br><br>
+                    [ Ex 70kg à 0.2μg/kg/h: <br>
+                    70 x <span class="vert">0.2 </span>/ <span class="rouge">1</span><br>
+                    = 14 μg / 1 <br>
+                    = 14 ml/h ]
+                </div>
+
+                <h3 class="titreFMU">Ampoules 250μg/5ml:</h3>
+                <div class="conteneurFMU">
+                    Ampoule: 250μg/>5ml <br>
+                    <span class="bleu">1 seringue de 50ml + 1 PSE + tubulure PSE</span> <br>
+                    <span class="marron">Diluer  1 amp = 5ml (250μg) + 45ml Nacl</span> <br>
+                    = 250μg / 50ml <br>
+                    <span class="rouge">5μg/ml</span><br>
+                    iVSE <br>
+                    <span class="vert">Entretien: 0.2 à 0.5 μg/kg/min </span><br>
+                    Calcul pour ml à injecter: <br> 
+                    Poids x <span class="vert">dose d'entretien</span> / <span class="rouge">dilution</span><br><br>
+                    [ Ex 70kg à 0.2μg/kg/h: <br>
+                    70 x <span class="vert">0.2 </span>/ <span class="rouge">5</span><br>
+                    = 14 μg / 5 <br>
+                    = 2.8 ml/h ]
+                </div><hr>
+
+<!--Calcul de base-->
+            <h2 class="titreFMU" id="Calcul">Calcul de mg/kg/h vers ml/h</h2>
+                <div class="conteneurFMU">
+                    <span class="rouge">Dilution en mg/ml</span><br>
+                    <span class="vert">Dose en mg/kg/h</span><br>
+                    Poids du patient <br>
+                    Calcul: <br>
+                    Poids x <span class="vert">Dose </span>/ <span class="rouge">Dilution</span><br>
+                </div>
+
+                <h2 class="titreFMU" id="Calcul">Calcul de mg/kg/min vers ml/h</h2>
+                <div class="conteneurFMU">
+                    <span class="rouge">Dilution en mg/ml</span><br>
+                    <span class="vert">Dose en mg/kg/min</span><br>
+                    Poids du patient <br>
+                    Calcul: <br>
+                    Poids x <span class="vert">Dose </span>/ <span class="rouge">Dilution</span> x60<br>
+                </div>
+
+                <h2 class="titreFMU" id="Calcul">Rappels</h2>
+                <div class="conteneurFMU">
+                    Ne pas mélanger des mg de la <span class="rouge">Dilution</span> 
+                    avec des μg de la <span class="vert">Dose d'entretien</span>.<br>
+                    Une conversion est necessaire (cf adrénaline / anaphylaxie). <br>
+                    1mg = 1000μg <br>
+                    1μg = 1gamma = 0.001mg <br>
+                    Attention aux min et aux heures.
+                </div>
+
+<p class="paralienhdp"><a href="#hdp">Retourner en haut (j'ai la flemme de scroller)</a></p>
+<hr>
+<p class="lienasguide"><a href="../ASguIDE.html">Retourner sur Asguide</a></p>
+    </body>
+</html>

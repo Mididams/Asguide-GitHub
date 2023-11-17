@@ -1,0 +1,229 @@
+body { 
+    font-family: "Delius Swash Caps", cursive, 'Roboto', sans-serif;
+    background-color: rgba(239, 236, 247, 0.89);
+    margin-left: 3%;
+    margin-right: 3%;
+    }
+
+*::selection {background-color: orange;}
+
+h1 {
+    /*color: red;*/
+    color: rgb(245, 76, 34);
+    text-decoration: underline;
+    text-align: center; 
+    }
+
+h2 { color: chocolate;
+    text-decoration: underline;
+    }
+
+.h2cent { /*annuaires*/
+    color: chocolate;
+    text-decoration: underline;
+    text-align: center;
+    }
+
+h3 { color: rgb(243, 173, 44);
+    text-decoration: underline;
+    }
+
+h4 { color: black; }
+
+.hr {
+    border: 1px solid rgb(124, 121, 121);
+}
+
+p { color: black; }
+
+a { color: green; 
+    text-decoration: none;
+    }
+
+a:hover { color:rgb(124, 16, 187);
+        /*border-bottom: 1px solid green;*/
+        text-decoration: underline;
+    }
+
+.alignepara { /*asguide + annuaires*/
+    display: flex; 
+    justify-content: space-around; 
+      }
+
+/*Conteneur grille + bloc carré pour pages html*/
+.grid-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+} 
+.bloc-carré { /*Forme de base Asguide*/
+    border: 2px dotted black;
+    height: 0.6cm;
+    padding: 7px;
+    background-color: rgb(199, 197, 197);
+    box-shadow: 6px 6px rgb(99, 94, 87);
+    font-weight: bold;
+    }
+
+
+/*bouton vidal + google*/
+.button { 
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(231, 217, 217);
+    }
+
+.colonne2 { column-count: 2;}
+.colonne3 { column-count: 3;}
+.colonne4 { column-count: 4;}
+
+.gras { font-weight: bold;}
+
+.imgplaiemobile { /* Traumato - image playmobil*/
+    display: block;
+    margin: 0 auto;
+    }
+
+.lienasguide { /*lien retour sur Asguide*/
+    text-align: left;
+        }
+
+.marge10 {
+    margin-left: 10%;
+}
+
+#mot-imp {color: red; font-weight: bold;}
+.mot-imp {color: red; font-weight: bold;}
+
+.nepasafficher { display: none; } /* sort du flux*/
+.cache { visibility: hidden;} /*reste dans le flux*/
+
+/*Tableau couleurs zones vertes */
+.containerparazv { /*Div pour aligner les parazv sur le début du tableau*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.parazv { /*annuaire urg - boxs zone verte*/
+    width: 500px;
+    margin: 0px auto;
+    align-self: flex-start; /* Pour aligner le paragraphe avec le début du tableau */
+    }
+
+.paralienhdp { /*annuaires*/
+    text-align: right;
+    }
+
+.p1 { /*annuaire urg zone verte*/
+    background-color: rgb(39, 161, 22);
+    font-size: 17px;
+    display: block;
+    width: 500px;
+    height: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    }
+
+.p2 { /*annuaire urg zone verte*/
+    background-color: rgb(60, 241, 5);
+    font-size: 17px;
+    display: block;
+    width: 500px;
+    height: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    }
+
+.p3 { /*annuaire urg zone verte*/
+    background-color: rgb(149, 247, 104);
+    font-size: 17px;
+    display: block;
+    width: 500px;
+    height: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+    }
+
+.seringue { /*Dessin seringue - Asguide*/
+    position:absolute;
+    left: 47%;
+    top: 15px;
+    }
+.divseringue { /*conteneur seringue*/
+    position: relative;
+    width: 100%;
+    height: 150px;
+    /*border: 1px solid black;*/
+}
+
+table { /*annuaires*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 500px;
+    table-layout: fixed;
+        }
+
+.tableService { /*Annuaire service et UF*/
+    width: 1000px;
+    text-align: center;
+    }
+
+.tableTaxi { /*Annuaire taxis*/
+    width: 600px;
+    text-align: center;
+    }
+
+td, th { /*annuaires*/
+    border: 1px solid green;
+    padding: 10px;
+    }
+
+tr:nth-child(even) { /*Alterner bg lignes tableau 1/2; Annuaires*/
+    background-color: rgb(196, 193, 193); 
+    }
+
+.titre-gauche {
+    margin-left: 1px;
+    }
+
+.titre-pr { color: rgb(245, 76, 34); /*asguide*/
+            /*border: 2px solid black;*/
+            /*text-align: center;
+            margin-left: 35%;*/
+        }
+
+.titre-tableau { /*Annuaires*/
+    color: chocolate;
+    font-size: 25px;
+        }
+
+/*Fiches médicaments d'urgences*/
+.titreFMU { margin-left: 40px;}
+.conteneurFMU { 
+    border: 1px solid black;
+    background-color: rgb(211, 204, 204);
+    width: 30%;
+    padding: 5px 10px;
+    margin: 20px 100px;
+}
+.bleu { color: blue; }
+.rouge { color: red; }
+.marron { color: rgb(141, 78, 7); }
+.vert { color:rgb(22, 185, 22); }
+.list { display: list-item;
+        margin-left: 5%;
+    }
+.lienFMU { text-decoration: underline;}
+
+/*Couleurs*/
+.jaune {color: rgb(245, 189, 4);}
+
+/*Bouton pour changer la police (head)*/
+#choixPolice {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(245, 240, 248);
+}
